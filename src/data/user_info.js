@@ -17,62 +17,9 @@ const info = {
   // ============ PROJECTS ============
   projects: [
     {
-      title: "The Walking Dead Jeu de Rôle",
-      description:
-        "Jeu de rôle médiéval développé avec Ruby on Rails. J'ai utilisé Ruby on Rails pour le backend et JavaScript pour le frontend. J'ai utilisé HTML et CSS pour le design.",
-      technologies: "Ruby on Rails, JavaScript, HTML, Tailwind CSS, PostgreSQL",
-      github: "https://github.com/yousra021/ruby-game",
-      link: "https://the-walking-dead-game.netlify.app/",
-      images: [
-        "/dashboard-twd.png",
-        "/survivor-twd.png",
-        "/selectplayer-twd.png",
-        "/homebase-twd.png",
-        "/caracteristiques-twd.png",
-        "/inventory-twd.png",
-        "/mission-twd.png",
-        "/fight-twd.png",
-      ],
-    },
-
-    {
-      title: "Auto-école site web",
-      description:
-        "Site web pour une auto-école de conduite. J'ai utilisé Django, SQLite, Tailwind CSS, Stripe.",
-      technologies: "Python Django, SQLite, Tailwind CSS, Stripe",
-      github: "https://github.com/yousra021/drivingschool",
-      link: "https://auto-ecole-site-web.netlify.app/",
-      images: [
-        "/dashboard-drivingschool.png",
-        "dashboard2-drivingschool.png",
-        "admin-drivingschool.png",
-        "payment-drivingschool.png",
-        "students-drivingschool.png",
-      ],
-    },
-
-    {
-      title: "Restaurant site web",
-      description:
-        "Site web pour un restaurant. J'ai utilisé Java, HTML, CSS, JavaScript, SQL.",
-      technologies: "Java, HTML, CSS, JavaScript, SQL",
-      github: "https://github.com/yousra021/restaurant-website",
-      link: "https://letterdigitshape-classification.netlify.app/",
-      images: [
-        "/dashboard-restaurant.png",
-        "menu-restaurant.png",
-        "dishes-restaurant.png",
-        "clients-restaurant.png",
-        "admin-restaurant.png",
-        "menu-restaurant.png",
-        "dish-restaurant.png",
-      ],
-    },
-
-    {
       title: "Protagoras",
       description:
-        "Protagoras est une plateforme pour apprendre une nouvelle langue. J'ai utilisé React, Tailwind, TypeScript, Firebase.",
+        "Protagoras est une plateforme pour apprendre une nouvelle langue. J'ai utilisé React, Tailwind, TypeScript, Zod et JavaScript. C'est des formations en ligne pour apprendre une nouvelle langue.",
       technologies:
         "TypeScript, NextJS, React, Tailwind, Shadcn/ui, JavaScript, Zod",
       link: "https://app.dev.protagoras.io/login",
@@ -92,7 +39,7 @@ const info = {
     {
       title: "Blockz",
       description:
-        "Blockz.gg est une marketplace NFT Web3 basée sur la blockchain Core.",
+        "Blockz.gg est une marketplace NFT Web3 basée sur la blockchain Core. On peut créer, acheter, vendre et collectionner des NFT. On peut aussi créer des collections NFT et les vendre.",
       technologies: "NextJS, Tailwind, TypeScript, JavaScript, CSS,",
       link: "https://blockz.gg/",
       images: [
@@ -103,6 +50,59 @@ const info = {
         "launchpad2.png",
         "launchpad3.png",
         "launchpad4.png",
+      ],
+    },
+
+    {
+      title: "The Walking Dead Jeu de Rôle",
+      description:
+        "Jeu de rôle The Walking Dead sur le jeu on peut créer un personnage, choisir un camp, combattre des zombies, et gagner des ressources. J'ai utilisé Ruby on Rails pour le backend et JavaScript pour le frontend. J'ai utilisé HTML et CSS pour le design.",
+      technologies: "Ruby on Rails, JavaScript, HTML, Tailwind CSS, PostgreSQL",
+      github: "https://github.com/yousra021/ruby-game",
+      link: "https://the-walking-dead-game.netlify.app/",
+      images: [
+        "/dashboard-twd.png",
+        "/survivor-twd.png",
+        "/selectplayer-twd.png",
+        "/homebase-twd.png",
+        "/caracteristiques-twd.png",
+        "/inventory-twd.png",
+        "/mission-twd.png",
+        "/fight-twd.png",
+      ],
+    },
+
+    {
+      title: "Auto-école site web",
+      description:
+        "Site web pour une auto-école de conduite, on peut réserver un cours de conduite, voir les cours disponibles, voir les professeurs, voir les élèves, etc. J'ai utilisé Django, SQLite, Tailwind CSS, Stripe.",
+      technologies: "Python Django, SQLite, Tailwind CSS, Stripe",
+      github: "https://github.com/yousra021/drivingschool",
+      link: "https://auto-ecole-site-web.netlify.app/",
+      images: [
+        "/dashboard-drivingschool.png",
+        "dashboard2-drivingschool.png",
+        "admin-drivingschool.png",
+        "payment-drivingschool.png",
+        "students-drivingschool.png",
+      ],
+    },
+
+    {
+      title: "Restaurant site web",
+      description:
+        "Site web pour un restaurant, on peut voir le menu, les plats, les desserts, les boissons, etc. J'ai utilisé Java, HTML, CSS, JavaScript, SQL.",
+      technologies: "Java, HTML, CSS, JavaScript, SQL",
+      github: "https://github.com/yousra021/restaurant-website",
+      link: "https://letterdigitshape-classification.netlify.app/",
+      images: [
+        "/dashboard-restaurant.png",
+        "menu-restaurant.png",
+        "dishes-restaurant.png",
+        "clients-restaurant.png",
+        "admin-restaurant.png",
+        "menu-restaurant.png",
+        "dish-restaurant.png",
       ],
     },
   ],
