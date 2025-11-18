@@ -216,7 +216,7 @@ const info = {
   contact: {
     title: "Contactez-moi: Comment me contacter",
     description:
-      "Merci pour votre intérêt à me contacter. Je vous remercie de me transmettre vos remarques, questions et suggestions. Si vous avez une question ou un commentaire spécifique, veuillez me contacter directement par email à belbazyousra@gmail.com. Je m'efforce de répondre à tous les messages dans les 24 heures, bien que cela puisse prendre plus longtemps pendant les périodes les plus chargées. Enfin, si vous préférez me contacter via les réseaux sociaux, vous pouvez me contacter en utilisant les liens ci-dessous.",
+      "Merci pour votre intérêt à me contacter. Je vous remercie de me transmettre vos remarques, questions et suggestions. Si vous avez une question ou un commentaire spécifique, veuillez me contacter directement par email à belbazyousra@gmail.com.",
   },
 
   // ============ FOOTER ============
